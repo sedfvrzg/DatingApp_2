@@ -1,5 +1,11 @@
 import { Injectable } from '../../../node_modules/@angular/core';
-import { HttpInterceptor, HttpHandler, HttpEvent, HttpRequest, HttpErrorResponse, HTTP_INTERCEPTORS } from '../../../node_modules/@angular/common/http';
+import {
+    HttpInterceptor,
+    HttpHandler,
+    HttpEvent,
+    HttpRequest,
+    HttpErrorResponse,
+    HTTP_INTERCEPTORS } from '../../../node_modules/@angular/common/http';
 import { Observable, throwError } from '../../../node_modules/rxjs';
 import { catchError } from '../../../node_modules/rxjs/operators';
 
