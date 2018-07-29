@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '../../../node_modules/@angular/common/http';
-import { mapToExpression } from '../../../node_modules/@angular/compiler/src/render3/view/util';
+import { HttpClient } from '@angular/common/http';
+import { mapToExpression } from '@angular/compiler/src/render3/view/util';
 import { map } from 'rxjs/operators';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { environment } from '../../environments/environment';
