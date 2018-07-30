@@ -3,7 +3,8 @@ import { AuthService } from '../_services/auth.service';
 import { UserService } from '../_services/user.service';
 import { ActivatedRoute } from '../../../node_modules/@angular/router';
 import { AlertifyService } from '../_services/alertify.service';
-import { PaginatedResult } from '../_models/pagination';
+import { PaginatedResult, Pagination } from '../_models/pagination';
+import { User } from '../_models/user';
 
 @Component({
   selector: 'app-lists',
